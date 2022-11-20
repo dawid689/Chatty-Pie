@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         mAuth = FirebaseAuth.getInstance()
-        mDbRef = FirebaseDatabase.getInstance().getReference()
+        mDbRef = FirebaseDatabase.getInstance("https://chatty-pie-b938b-default-rtdb.europe-west1.firebasedatabase.app/").getReference()
 
         userList = ArrayList()
         adapter = UserAdapter(this, userList)

@@ -5,14 +5,6 @@ pluginManagement {
         mavenCentral()
     }
 }
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        maven {url 'https://jitpack.io'}
-//        maven { url "https://maven.localazy.com/repository/release/" }
-    }
-}
+
 rootProject.name = "Chatty Pie"
 include ':app'

@@ -56,7 +56,7 @@ class SignUp : AppCompatActivity() {
     }
 
     private fun addUserToDatabase(name: String, email: String, uid: String) {
-        mDbRef = FirebaseDatabase.getInstance().getReference()
+        mDbRef = FirebaseDatabase.getInstance("https://chatty-pie-b938b-default-rtdb.europe-west1.firebasedatabase.app").getReference()
 
         mDbRef.child("user").child(uid).setValue(User(name, email, uid))
     }

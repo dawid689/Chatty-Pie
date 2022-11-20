@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "824235873941",
+    "project_id": "chatty-pie-b938b",
+    "storage_bucket": "chatty-pie-b938b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824235873941:android:da6bf60ede9300fd66ad9c",
+        "android_client_info": {
+          "package_name": "com.example.chattypie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824235873941-m1qpsi85mtc8agsm41dfvd7mfkrfba6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chattypie",
+            "certificate_hash": ""
+          }
+        },
+        {
+          "client_id": "824235873941-porjhv17nmpm6g6uufjmq64nh95csedf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxL6Yx0pgYM--nCxrhB9lZsaBS5XqAbaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824235873941-porjhv17nmpm6g6uufjmq64nh95csedf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
